@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ingles.css">
+    <script src="https://kit.fontawesome.com/515f6fd498.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div id="ingles">
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+        <span>L</span>
+        <span>Ê</span>
+        <span>S</span>
+    </div>
+    <main>
+        <section id="menu">
+            <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="carousel-container">
+                <div class="carousel-images">
+                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula01.png" alt="Imagem 1">
+                    <img src="/img/aula02.png" alt="Imagem 2">
+                    <img src="/img/aula03.png" alt="Imagem 3">
+                </div>
+            </div>
+            <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button>
+        </section>
+        <section id="aula1">
+            <div>
+                <h2>Escolha uma tradução</h2>
+                <h3>like</h3>
+                <audio controls controlsList="nodownload">
+                    <source src="/audios/like.wav" type="audio/wav">
+                </audio>
+                <br>
+                <button id="btn1" onclick=" mensagemErrada1()">abrir</button>
+                <br>
+                <button id="btn2" onclick="respostaCerta1()">gostar</button>
+                <br>
+                <button id="bt-continuar1">continuar <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+            <div id="resposta-errada1">
+                <h2>Errou!</h2>
+                <p>Resposta correta</p>
+                <h1>Gostar - like</h1>
+                <button id="tentar1" onclick="tentarNovamente()">tentar novamente</button>
+            </div>
+            <div id="resposta-certa1">
+                <h1>Certa Resposta</h1>
+                <p><i class="fa-solid fa-thumbs-up"></i></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul id="menu-footer">
+            <li id="btnAtualizar"><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-solid fa-bars"></i></li>
+            <li><i class="fa-solid fa-book"></i></li>
+            <li><i class="fa-solid fa-circle-info"></i></li>
+        </ul>
+    </footer>
+    <script src="ingles.js"></script>
+</body>
+
+</html>
