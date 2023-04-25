@@ -1,19 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400&display=swap');
-
-
-/*fonte das plavras em ingles
-font-family: 'Laila', sans-serif;*/
-
-
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-/*fonte geral 
-font-family: 'Varela Round', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -46,8 +37,7 @@ main {
     height: 200px;
     border-radius: 10px;
     overflow: hidden;
-    top: 150px;
-    
+    top: 120px;
     border-radius: 50%;
 }
 
@@ -58,8 +48,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-   
 }
 
 .carousel-images img {
@@ -106,8 +94,8 @@ main {
     position: absolute;
     display: none;
     width: 250px;
-    height: 350px;
-    top: 120px;
+    height: 370px;
+    top: 90px;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -281,7 +269,7 @@ footer {
 
 #menu-footer li {
     font-size: 25px;
-    color: rgb(25, 100, 75);
+    color: #333;
     background: rgba(25, 100, 75, 0.1);
     padding: 10px;
     border-radius: 10px;
