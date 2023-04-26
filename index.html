@@ -20,13 +20,14 @@
         <span>L</span>
         <span>Ê</span>
         <span>S</span>
+        <img id="icone-ingles" src="/img/estadosUn.png" alt="">
     </div>
     <main>
         <section id="menu">
             <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
             <div class="carousel-container">
                 <div class="carousel-images">
-                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula01.png" alt="Imagem 1">
+                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula001.png" alt="Imagem 1" >
                     <img src="/img/aula02.png" alt="Imagem 2">
                     <img src="/img/aula03.png" alt="Imagem 3">
                 </div>
@@ -36,6 +37,7 @@
         <section id="aula1">
             <div>
                 <h2>Escolha uma tradução</h2>
+                <img id="like" src="/img/like.png" alt="">
                 <h3>like</h3>
                 <audio controls controlsList="nodownload">
                     <source src="/audios/like.wav" type="audio/wav">
@@ -45,7 +47,7 @@
                 <br>
                 <button id="btn2" onclick="respostaCerta1()">gostar</button>
                 <br>
-                <button id="bt-continuar1">continuar <i class="fa-solid fa-angle-right"></i></button>
+                
             </div>
             <div id="resposta-errada1">
                 <h2>Errou!</h2>
@@ -56,6 +58,7 @@
             <div id="resposta-certa1">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
+                <button id="bt-continuar1">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
     </main>
