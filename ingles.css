@@ -59,7 +59,7 @@ main {
 
 .carousel-images img {
     width: 200px;
-    height: 210px;
+    height:200px;
     object-fit: cover;
     background-position: center;
     cursor: pointer;
@@ -73,8 +73,9 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: 10px 15px;
     font-size: 25px;
+    
     border-radius: 50%;
     cursor: pointer;
 }
@@ -99,12 +100,13 @@ main {
 
 }
 
+/*aula1-seção 2*/
 #aula1 {
     position: absolute;
     display: none;
-    width: 250px;
-    height: 370px;
-    top: 90px;
+    width: 280px;
+    height: 420px;
+    top: 25px;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -116,8 +118,9 @@ main {
 
 #aula1 h2 {
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: 'Varela Round', sans-serif;
+    color: #fff;
 }
 
 #like {
@@ -128,6 +131,7 @@ main {
 #aula1 h3 {
     font-size: 30px;
     font-family: 'Laila', sans-serif;
+    color: #fff;
 
 }
 
@@ -177,7 +181,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
 
 #btn2 {
     position: relative;
-    top: 10px;
+    top: 20px;
     width: 180px;
     height: 50px;
     font-size: 20px;
@@ -188,30 +192,16 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     cursor: pointer;
 }
 
-#bt-continuar1 {
-    position: absolute;
-    bottom: 3%;
-    width: 110px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: none;
-    left: 25%;
-    font-family: 'Varela Round', sans-serif;
-}
-
-
-
 #resposta-errada1 {
     display: none;
-    width: 200px;
-    height: 150px;
+    width: 220px;
+    height: 180px;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(212, 113, 113);
     position: absolute;
     left: 10%;
-    top: 210px;
+    top: 220px;
     line-height: 0.5;
 }
 
@@ -245,14 +235,14 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
 
 #resposta-certa1 {
     display: none;
-    width: 200px;
-    height: 150px;
+    width: 220px;
+    height: 180px;
     text-align: center;
     border-radius: 10px;
     background-color: rgb(183, 233, 197);
     position: absolute;
     left: 10%;
-    top: 210px;
+    top: 220px;
     color: green;
 }
 
@@ -268,6 +258,154 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+#bt-continuar1 {
+    position: absolute;
+    bottom: 3%;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    left: 25%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*aula1-seção 2*/
+#aula1-secao2{
+    position: absolute;
+    display: none;
+    width: 280px;
+    height: 420px;
+    top: 25px;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(87, 47, 188);
+    background: linear-gradient(rgb(87, 47, 188), rgb(41, 36, 59));
+    border-bottom: 2px solid rgb(24, 212, 187);
+    border-left: 2px solid rgb(24, 212, 187);
+    border-right: 1px solid rgb(24, 212, 187);
+}
+#aula1-secao2 h2 {
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+}
+
+#want {
+    width: 100px;
+    margin-top: 10px;
+    position: relative;
+}
+
+#aula1-secao2 h3 {
+    font-size: 30px;
+    font-family: 'Laila', sans-serif;
+    color: #fff;
+}
+#btn3 {
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+    margin: 5px 0;
+    font-family: 'Laila', sans-serif;
+    cursor: pointer;
+}
+
+#btn4 {
+    position: relative;
+    top: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0;
+    font-family: 'Laila', sans-serif;
+    cursor: pointer;
+}
+
+#resposta-errada2 {
+    display: none;
+    width: 220px;
+    height: 180px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(212, 113, 113);
+    position: absolute;
+    left: 10%;
+    top: 230px;
+    line-height: 0.5;
+}
+
+#resposta-errada2 h2{
+    position: relative;
+    font-size: 30px;
+    color: rgb(8, 8, 8);
+}
+
+#resposta-errada2 p {
+    position: relative;
+    top: 20px;
+}
+
+#resposta-errada2 h1 {
+    color: brown;
+    margin-top: 30px;
+    font-family: 'Laila', sans-serif;
+}
+
+#resposta-errada2 button {
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#resposta-certa2 {
+    display: none;
+    width: 220px;
+    height: 180px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(183, 233, 197);
+    position: absolute;
+    left: 10%;
+    top: 230px;
+    color: green;
+}
+
+#resposta-certa2 h1 {
+    position: relative;
+    top: 15px;
+}
+
+#resposta-certa2 p {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+#bt-continuar2 {
+    position: absolute;
+    bottom: 3%;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    left: 25%;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
 
 footer {
     position: fixed;

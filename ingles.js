@@ -1,32 +1,3 @@
-//btn1 e 2
-function botoes() {
-    document.addEventListener("click", bt1);
-
-}
-
-/*let botao1Clicado = false;
-let botao2Clicado = false;
-
-function bt1(event) {
-  let botao1 = document.getElementById("btn1");
-  let botao2 = document.getElementById("btn2");
-
-  if (event.target === botao1) {
-    botao1Clicado = true;
-    botao2Clicado = false;
-  } else if (event.target === botao2) {
-    botao1Clicado = false;
-    botao2Clicado = true;
-  }
-
-  if (botao1Clicado) {
-    botao1.style.background = "red";
-    botao2.style.background = "white";
-  } else if (botao2Clicado) {
-    botao1.style.background = "white";
-    botao2.style.background = "green";
-  }
-}*/
 
 function mensagemErrada1() {
     let respostaErrada = document.getElementById("resposta-errada1");
@@ -50,6 +21,29 @@ function Fecharlista(){
 function abrirAula1(){
     let lista=document.getElementById("aula1");
     lista.style.display="block";
+}
+
+//aula01 seção2
+function abrir01secao02(){
+  let aula01secao2 = document.getElementById("aula1-secao2");
+  aula01secao2.style.display="block";
+}
+function fechar01secao01(){
+  let aula01secao2 = document.getElementById("aula1");
+  aula01secao2.style.display="none";
+}
+
+function mensagemErrada2(){
+  let aula01Secao2Errada = document.getElementById("resposta-errada2");
+  aula01Secao2Errada.style.display="block";
+}
+function respostaCerta2(){
+  let aula01Secao2Certa = document.getElementById("resposta-certa2");
+  aula01Secao2Certa.style.display="block";
+}
+function tentarNovamente2(){
+  let tentar2 =document.getElementById("resposta-errada2");
+  tentar2.style.display="none";
 }
 
 //slider

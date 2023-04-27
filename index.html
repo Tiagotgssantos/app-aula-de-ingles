@@ -27,7 +27,7 @@
             <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
             <div class="carousel-container">
                 <div class="carousel-images">
-                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula001.png" alt="Imagem 1" >
+                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula-de-ingles01.png" alt="Imagem 1" >
                     <img src="/img/aula02.png" alt="Imagem 2">
                     <img src="/img/aula03.png" alt="Imagem 3">
                 </div>
@@ -36,7 +36,7 @@
         </section>
         <section id="aula1">
             <div>
-                <h2>Escolha uma tradução</h2>
+                <h2>Escolha a tradução</h2>
                 <img id="like" src="/img/like.png" alt="">
                 <h3>like</h3>
                 <audio controls controlsList="nodownload">
@@ -58,7 +58,34 @@
             <div id="resposta-certa1">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar1">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar1" onclick="abrir01secao02();fechar01secao01()">continuar <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </section>
+        <section id="aula1-secao2">
+            <div>
+                <h2>Escolha a tradução</h2>
+                <img id="want" src="/img/querer.png" alt="">
+                <h3>want</h3>
+                <audio controls controlsList="nodownload">
+                    <source src="/audios/want.wav" type="audio/wav">
+                </audio>
+                <br>
+                <button id="btn3" onclick="respostaCerta2()">querer</button>
+                <br>
+                <button id="btn4" onclick="mensagemErrada2()">viajar</button>
+                <br>
+                
+            </div>
+            <div id="resposta-errada2">
+                <h2>Errou!</h2>
+                <p>Resposta correta</p>
+                <h1>querer - want</h1>
+                <button id="tentar2" onclick="tentarNovamente2()">tentar novamente</button>
+            </div>
+            <div id="resposta-certa2">
+                <h1>Certa Resposta</h1>
+                <p><i class="fa-solid fa-thumbs-up"></i></p>
+                <button id="bt-continuar2">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
     </main>
