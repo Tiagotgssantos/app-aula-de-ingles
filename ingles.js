@@ -68,6 +68,82 @@ function tentarNovamente3(){
   let fechartenteNovamente3 = document.getElementById("resposta-errada3");
   fechartenteNovamente3.style.display="none";
 }
+function fechar01secao03(){
+  let fecharContinuar03 = document.getElementById("aula1-secao3");
+  fecharContinuar03.style.display="none";
+}
+function abrirsecao04(){
+  let abrirContinuar03 = document.getElementById("aula1-secao4");
+  abrirContinuar03.style.display="block";
+}
+
+//aula01 seção4
+function respostaCerta4(){
+  let abrirRespostaCerta4 = document.getElementById ("resposta-certa4");
+  abrirRespostaCerta4.style.display="block";
+}
+function respostaErrada4(){
+  let abrirRepostaErrada4 =document.getElementById("resposta-errada4");
+  abrirRepostaErrada4.style.display="block";
+}
+function tentarNovamente4(){
+  let fechartenteNovamente4 = document.getElementById("resposta-errada4");
+  fechartenteNovamente4.style.display="none";
+}
+function fechar01secao04(){
+  let fecharContinuar04 = document.getElementById("aula1-secao4");
+  fecharContinuar04.style.display="none";
+}
+function abrirsecao05(){
+  let abrirContinuar04 = document.getElementById("aula1-secao5");
+  abrirContinuar04.style.display="block";
+}
+
+//aula01 seção5
+function respostaCerta5(){
+  let abrirRespostaCerta5 = document.getElementById ("resposta-certa5");
+  abrirRespostaCerta5.style.display="block";
+}
+function respostaErrada5(){
+  let abrirRepostaErrada5 =document.getElementById("resposta-errada5");
+  abrirRepostaErrada5.style.display="block";
+}
+function tentarNovamente5(){
+  let fechartenteNovamente5 = document.getElementById("resposta-errada5");
+  fechartenteNovamente5.style.display="none";
+}
+function fechar01secao05(){
+  let fecharContinuar05 = document.getElementById("aula1-secao5");
+  fecharContinuar05.style.display="none";
+}
+function abrirsecao06(){
+  let abrirContinuar05 = document.getElementById("aula1-secao6");
+  abrirContinuar05.style.display="block";
+}
+
+//aula01 seção6
+function respostaCerta6(){
+  let abrirRespostaCerta5 = document.getElementById ("resposta-certa6");
+  abrirRespostaCerta5.style.display="block";
+}
+function respostaErrada6(){
+  let abrirRepostaErrada5 =document.getElementById("resposta-errada6");
+  abrirRepostaErrada5.style.display="block";
+}
+function tentarNovamente6(){
+  let fechartenteNovamente5 = document.getElementById("resposta-errada6");
+  fechartenteNovamente5.style.display="none";
+}
+function fechar01secao06(){
+  let fecharContinuar05 = document.getElementById("aula1-secao6");
+  fecharContinuar05.style.display="none";
+}
+function abrirsecao07(){
+  let abrirContinuar06 = document.getElementById("aula1-secao7");
+  abrirContinuar06.style.display="block";
+}
+
+
 //slider
 const carouselImages = document.querySelector('.carousel-images');
     const prevBtn = document.querySelector('.prev');
