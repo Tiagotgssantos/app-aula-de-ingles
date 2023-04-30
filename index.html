@@ -28,15 +28,16 @@
             <div class="carousel-container">
                 <div class="carousel-images">
                     <img onclick="abrirAula1();Fecharlista()" src="/img/aula-de-ingles01.png" alt="Imagem 1" >
-                    <img src="/img/aula02.png" alt="Imagem 2">
+                  <!-- <img src="/img/aula02.png" alt="Imagem 2">
                     <img src="/img/aula03.png" alt="Imagem 3">
+                    --> 
                 </div>
             </div>
             <button class="carousel-control next"><i class="fas fa-chevron-right"></i></button>
         </section>
         <section id="aula1">
             <div>
-                <h2>Escolha a tradução</h2>
+                <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="like" src="/img/like.png" alt="">
                 <h3>like</h3>
                 <audio controls controlsList="nodownload">
@@ -63,7 +64,7 @@
         </section>
         <section id="aula1-secao2">
             <div>
-                <h2>Escolha a tradução</h2>
+                <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="want" src="/img/querer.png" alt="">
                 <h3>want</h3>
                 <audio controls controlsList="nodownload">
@@ -85,16 +86,43 @@
             <div id="resposta-certa2">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar2">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar2" onclick="fechar01secao02();abrirsecao03()">continuar <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </section>
+        <section id="aula1-secao3">
+            <div>
+                <h2 class="all-escolha">Escolha a tradução</h2>
+                <img id="work" src="/img/trabalhar.jpg" alt="">
+                <h3>work</h3>
+                <audio controls controlsList="nodownload">
+                    <source src="/audios/work.wav" type="audio/wav">
+                </audio>
+                <br>
+                <button id="btn5" onclick="respostaCerta3()">trabalho</button>
+                <br>
+                <button id="btn6" onclick="respostaErrada3()">caminhar</button>
+                <br>
+                
+            </div>
+            <div id="resposta-errada3">
+                <h2>Errou!</h2>
+                <p>Resposta correta</p>
+                <h1>trabalho - work</h1>
+                <button id="tentar3" onclick="tentarNovamente3()">tentar novamente</button>
+            </div>
+            <div id="resposta-certa3">
+                <h1>Certa Resposta</h1>
+                <p><i class="fa-solid fa-thumbs-up"></i></p>
+                <button id="bt-continuar3" >continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
     </main>
     <footer>
         <ul id="menu-footer">
             <li id="btnAtualizar"><i class="fa-solid fa-house"></i></li>
-            <li><i class="fa-solid fa-bars"></i></li>
+           <!-- <li><i class="fa-solid fa-bars"></i></li>
             <li><i class="fa-solid fa-book"></i></li>
-            <li><i class="fa-solid fa-circle-info"></i></li>
+            <li><i class="fa-solid fa-circle-info"></i></li>-->
         </ul>
     </footer>
     <script src="ingles.js"></script>

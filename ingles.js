@@ -46,6 +46,28 @@ function tentarNovamente2(){
   tentar2.style.display="none";
 }
 
+function fechar01secao02(){
+  let fecharContinuar02 = document.getElementById("aula1-secao2");
+  fecharContinuar02.style.display="none";
+}
+function abrirsecao03(){
+  let abrirContinuar02 = document.getElementById("aula1-secao3");
+  abrirContinuar02.style.display="block";
+}
+
+//aula01 seção3
+function respostaCerta3(){
+  let abrirRespostaCerta3 = document.getElementById("resposta-certa3");
+  abrirRespostaCerta3.style.display="block";
+}
+function respostaErrada3(){
+  let abrirRepostaErrada3 = document.getElementById("resposta-errada3");
+  abrirRepostaErrada3.style.display="block";
+}
+function tentarNovamente3(){
+  let fechartenteNovamente3 = document.getElementById("resposta-errada3");
+  fechartenteNovamente3.style.display="none";
+}
 //slider
 const carouselImages = document.querySelector('.carousel-images');
     const prevBtn = document.querySelector('.prev');
