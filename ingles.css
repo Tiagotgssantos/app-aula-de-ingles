@@ -19,15 +19,15 @@ body {
 main {
     display: flex;
     justify-content: center;
-   
-    
+
+
 }
 
 #ingles {
     position: relative;
     text-align: center;
     top: 15px;
-   
+
 
 }
 
@@ -37,9 +37,9 @@ main {
 }
 
 #icone-ingles {
-    position:absolute;
+    position: absolute;
     width: 30px;
-  
+
 }
 
 
@@ -51,11 +51,11 @@ main {
     background: linear-gradient(rgb(87, 47, 188), rgb(41, 36, 59));
     overflow: hidden;
     top: 30%;
-    border-radius: 50%;  
-    box-shadow:1px  -1px 5px rgba(8, 8, 8,0.5),
-    0px  0px 25px rgba(8, 8, 8,0.5),
-    0px 0px 50px rgba(8, 8, 8,0.5);
-   
+    border-radius: 50%;
+    box-shadow: 1px -1px 5px rgba(8, 8, 8, 0.5),
+        0px 0px 25px rgba(8, 8, 8, 0.5),
+        0px 0px 50px rgba(8, 8, 8, 0.5);
+
 }
 
 .carousel-images {
@@ -64,17 +64,17 @@ main {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;  
-     
+    align-items: center;
+
 }
 
 .carousel-images img {
     width: 200px;
-    height:220px;
+    height: 220px;
     object-fit: cover;
     background-position: center;
-    cursor: pointer; 
-    
+    cursor: pointer;
+
 }
 
 
@@ -112,17 +112,18 @@ main {
 
 }
 
-#informativo{
+#informativo {
     position: absolute;
     top: 70%;
 }
-#informativo h2{
+
+#informativo h2 {
     color: #fff;
-   border-radius: 10px;
-    padding: 2px 5px;
-    font-size: 20px;
+    border-radius: 10px;
+    padding: 2px 2px;
+    font-size: 18px;
     background: rgba(0, 0, 0, 0.4);
-    
+
 }
 
 /*aula1-seção 1*/
@@ -160,7 +161,7 @@ main {
 
 }
 
-.all-escolha{
+.all-escolha {
     font-size: 15px;
     margin-top: 20px;
     font-family: 'Varela Round', sans-serif;
@@ -237,7 +238,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada1 h2{
+#resposta-errada1 h2 {
     position: relative;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -289,6 +290,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar1 {
     position: absolute;
     bottom: 3%;
@@ -300,10 +302,11 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /* fianl aula1-seção 1*/
 
 /*aula1-seção 2*/
-#aula1-secao2{
+#aula1-secao2 {
     position: absolute;
     display: none;
     width: 280px;
@@ -317,6 +320,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     border-left: 2px solid rgb(24, 212, 187);
     border-right: 1px solid rgb(24, 212, 187);
 }
+
 #aula1-secao2 h2 {
     font-size: 15px;
     margin-top: 20px;
@@ -335,6 +339,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-family: 'Laila', sans-serif;
     color: #fff;
 }
+
 #btn3 {
     width: 180px;
     height: 50px;
@@ -374,7 +379,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada2 h2{
+#resposta-errada2 h2 {
     position: relative;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -425,6 +430,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar2 {
     position: absolute;
     bottom: 3%;
@@ -436,10 +442,11 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /* final aula1-seção 2*/
 
 /*aula1-seção 3*/
-#aula1-secao3{
+#aula1-secao3 {
     position: absolute;
     display: none;
     width: 280px;
@@ -466,6 +473,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-family: 'Laila', sans-serif;
     color: #fff;
 }
+
 #btn5 {
     width: 180px;
     height: 50px;
@@ -505,7 +513,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada3 h2{
+#resposta-errada3 h2 {
     margin-top: 20px;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -556,6 +564,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar3 {
     position: absolute;
     bottom: 3%;
@@ -567,12 +576,13 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /*aula1-seção 3*/
 
 /*aula1-seção 4*/
-#aula1-secao4{
+#aula1-secao4 {
     position: absolute;
-   display: none;
+    display: none;
     width: 280px;
     height: 420px;
     top: 10%;
@@ -597,6 +607,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-family: 'Laila', sans-serif;
     color: #fff;
 }
+
 #btn7 {
     width: 180px;
     height: 50px;
@@ -636,7 +647,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada4 h2{
+#resposta-errada4 h2 {
     margin-top: 20px;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -687,6 +698,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar4 {
     position: absolute;
     bottom: 3%;
@@ -698,10 +710,11 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /*aula1-seção 4*/
 
 /*aula1-seção 5*/
-#aula1-secao5{
+#aula1-secao5 {
     position: absolute;
     display: none;
     width: 280px;
@@ -728,6 +741,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-family: 'Laila', sans-serif;
     color: #fff;
 }
+
 #btn9 {
     width: 180px;
     height: 50px;
@@ -767,7 +781,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada5 h2{
+#resposta-errada5 h2 {
     margin-top: 20px;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -818,6 +832,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar5 {
     position: absolute;
     bottom: 3%;
@@ -829,10 +844,11 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /*final aula1-seção 5*/
 
 /*aula1-seção 6*/
-#aula1-secao6{
+#aula1-secao6 {
     position: absolute;
     display: none;
     width: 280px;
@@ -859,6 +875,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-family: 'Laila', sans-serif;
     color: #fff;
 }
+
 #btn11 {
     width: 180px;
     height: 50px;
@@ -898,7 +915,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     line-height: 0.5;
 }
 
-#resposta-errada6 h2{
+#resposta-errada6 h2 {
     margin-top: 20px;
     font-size: 30px;
     color: rgb(8, 8, 8);
@@ -949,6 +966,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     font-size: 50px;
     color: green;
 }
+
 #bt-continuar6 {
     position: absolute;
     bottom: 3%;
@@ -960,10 +978,11 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     left: 25%;
     font-family: 'Varela Round', sans-serif;
 }
+
 /*final aula1-seção 6*/
 
 /*aula1-seção 7*/
-#aula1-secao7{
+#aula1-secao7 {
     display: none;
     position: absolute;
     width: 280px;
@@ -971,23 +990,27 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     top: 10%;
     text-align: center;
     border-radius: 10px;
-   background: linear-gradient(rgb(87, 47, 188), rgb(41, 36, 59));
+    background: linear-gradient(rgb(87, 47, 188), rgb(41, 36, 59));
 }
-#aula1-secao7 p{
+
+#aula1-secao7 p {
     position: relative;
     font-size: 20px;
     top: 170px;
     color: #fff;
 }
-#aula1-secao7 h2{
+
+#aula1-secao7 h2 {
     position: relative;
     font-size: 30px;
     top: 170px;
     color: #fff;
 }
-.primeira-etapa{
+
+.primeira-etapa {
     width: 280px;
 }
+
 /*final aula1-seção 6*/
 
 
@@ -1019,11 +1042,11 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (min-width:45rem){
+@media screen and (min-width:45rem) {
     .carousel-control.prev {
         left: 15%;
     }
-    
+
     .carousel-control.next {
         right: 15%;
     }
@@ -1031,22 +1054,22 @@ footer {
     .carousel-container {
         position: relative;
         top: 45%;
-       
-       
+
+
     }
 }
 
 
-@media screen and (min-width:56rem){
+@media screen and (min-width:56rem) {
     .carousel-control.prev {
         left: 25%;
     }
-    
+
     .carousel-control.next {
         right: 25%;
     }
 
-    #informativo{
+    #informativo {
         position: absolute;
         top: 70%;
     }
