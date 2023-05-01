@@ -45,30 +45,8 @@ main {
 #informativo {
     position: absolute;
     text-align: center;
-    color: green;
-    top: 40%;
-   
+    top: 40%; 
 }
-#informativo i{
-    position: relative;
-    font-size:50px;
-    top: -8px;
-    color: #8d068d;
-    animation: animar 1s ease-in infinite;
-    transform: all 2s;
-}
-@keyframes animar{
-    0%,50%{
-        color: #8f34b0;
-        font-size: 60px;
-    }60%,100%{
-        color: #af0beb;
-        font-size: 45px;
-        
-    }
-    
-}
-
 
 #informativo h2 {
     color: #fff;
@@ -77,6 +55,13 @@ main {
     font-size: 15px;
     background: rgba(9, 9, 9, 0.6);
 
+}
+
+#clique-aqui{
+    position: relative;
+    top: -110px;
+    width: 140px;
+    height: 140px;
 }
 
 .carousel-container {
