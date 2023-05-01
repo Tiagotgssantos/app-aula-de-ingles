@@ -980,7 +980,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
 
 footer {
     position: fixed;
-    top: 85%;
+    top: 89%;
     width: 100%;
     background: #fff;
 }
@@ -997,12 +997,12 @@ footer {
 
 #menu-footer li {
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
     color: #333;
     background: rgba(25, 100, 75, 0.1);
     padding: 10px;
     border-radius: 10px;
-    top: -15px;
+    top: -18px;
 }
 
 @media screen and (min-width:45rem){
