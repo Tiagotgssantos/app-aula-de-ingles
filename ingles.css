@@ -19,12 +19,14 @@ body {
 main {
     display: flex;
     justify-content: center;
+   
+    
 }
 
 #ingles {
     position: relative;
     text-align: center;
-    top: 25px;
+    top: 15px;
    
 
 }
@@ -116,7 +118,7 @@ main {
     display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -293,7 +295,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -429,7 +431,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -560,7 +562,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
    display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -691,7 +693,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -822,7 +824,7 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
     display: none;
     width: 280px;
     height: 420px;
-    top: 25px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
     background: rgb(87, 47, 188);
@@ -950,10 +952,10 @@ audio::-webkit-media-controls-timeline::-webkit-media-controls-seek-forward-butt
 /*aula1-seção 7*/
 #aula1-secao7{
     display: none;
-    position: relative;
+    position: absolute;
     width: 280px;
     height: 420px;
-    top: -27px;
+    top: 10%;
     text-align: center;
     border-radius: 10px;
    background: linear-gradient(rgb(87, 47, 188), rgb(41, 36, 59));
