@@ -42,7 +42,28 @@ main {
 
 }
 
+#informativo {
+    position: absolute;
+    text-align: center;
+    color: green;
+    top: 40%;
+   
+}
+#informativo i{
+    position: relative;
+    font-size:50px;
+    top: -8px;
+    color: #890489;
+}
 
+#informativo h2 {
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 2px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
 
 .carousel-container {
     position: relative;
@@ -55,7 +76,7 @@ main {
     box-shadow: 1px -1px 5px rgba(8, 8, 8, 0.5),
         0px 0px 25px rgba(8, 8, 8, 0.5),
         0px 0px 50px rgba(8, 8, 8, 0.5);
-
+   
 }
 
 .carousel-images {
@@ -109,29 +130,6 @@ main {
     font-size: 20px;
     border-bottom: 1px solid #333;
     width: 95%;
-
-}
-
-#informativo {
-    position: absolute;
-    text-align: center;
-    color: #fff;
-    top: 70%;
-}
-#informativo i{
-    position: relative;
-    font-size:30px ;
-    top: 1px;
-    color: rgba(0, 0, 0, 0.3);
-}
-
-#informativo h2 {
-    color: #fff;
-    border-radius: 10px;
-    padding: 5px 2px;
-    font-size: 18px;
-    background: rgba(0, 0, 0, 0.4);
-
 }
 
 /*aula1-seção 1*/
@@ -1062,8 +1060,10 @@ footer {
     .carousel-container {
         position: relative;
         top: 45%;
-
-
+    }
+    #informativo {
+        position: absolute;
+        top: 40%;
     }
 }
 
@@ -1079,6 +1079,6 @@ footer {
 
     #informativo {
         position: absolute;
-        top: 70%;
+        top: 40%;
     }
 }

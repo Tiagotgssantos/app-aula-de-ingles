@@ -4,6 +4,15 @@ function fecharinformativo(){
   informativo.style.display="none";
 }
 
+function esconderinformativo(){
+  let informativo=document.getElementById("informativo");
+  informativo.style.display="none";
+}
+function mostrarinformativo(){
+  let informativo=document.getElementById("informativo");
+  informativo.style.display="block";
+}
+
 
 function mensagemErrada1() {
     let respostaErrada = document.getElementById("resposta-errada1");
