@@ -27,7 +27,7 @@
             <button class="carousel-control prev"><i class="fas fa-chevron-left"></i></button>
             <div class="carousel-container">
                 <div class="carousel-images">
-                    <img onclick="abrirAula1();Fecharlista()" src="/img/aula-de-ingles01.png" alt="Imagem 1" >
+                    <img onclick="abrirAula1();Fecharlista();tocarAudio()" src="/img/aula-de-ingles01.png" alt="Imagem 1" >
                   <!-- <img src="/img/aula02.png" alt="Imagem 2">
                     <img src="/img/aula03.png" alt="Imagem 3">
                     --> 
@@ -40,7 +40,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="like" src="/img/like.png" alt="">
                 <h3>like</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-like">
                     <source src="/audios/like.wav" type="audio/wav">
                 </audio>
                 <br>
@@ -59,7 +59,7 @@
             <div id="resposta-certa1">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar1" onclick="abrir01secao02();fechar01secao01()">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar1" onclick="abrir01secao02();fechar01secao01();tocarAudio2()">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
         <section id="aula1-secao2">
@@ -67,7 +67,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="want" src="/img/querer.png" alt="">
                 <h3>want</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-want">
                     <source src="/audios/want-Ava.mp3" type="audio/mp3">
                 </audio>
                 <br>
@@ -86,7 +86,7 @@
             <div id="resposta-certa2">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar2" onclick="fechar01secao02();abrirsecao03()">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar2" onclick="fechar01secao02();abrirsecao03();tocarAudio3()">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
         <section id="aula1-secao3">
@@ -94,7 +94,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="work" src="/img/trabalhar.jpg" alt="">
                 <h3>work</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-work">
                     <source src="/audios/work-Ava.mp3" type="audio/mp3">
                 </audio>
                 <br>
@@ -113,7 +113,7 @@
             <div id="resposta-certa3">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar3" onclick="fechar01secao03(); abrirsecao04()">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar3" onclick="fechar01secao03(); abrirsecao04();tocarAudio4()">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
 
@@ -122,7 +122,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="work" src="/img/tea.jpg" alt="">
                 <h3>tea</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-tea">
                     <source src="/audios/tea-Ava.mp3" type="audio/mp3">
                 </audio>
                 <br>
@@ -141,7 +141,7 @@
             <div id="resposta-certa4">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar4" onclick="fechar01secao04();abrirsecao05()">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar4" onclick="fechar01secao04();abrirsecao05();tocarAudio5()">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
 
@@ -150,7 +150,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="work" src="/img/coffee.jpg" alt="">
                 <h3>coffee</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-coffee">
                     <source src="/audios/coffee-Ava.mp3" type="audio/mp3">
                 </audio>
                 <br>
@@ -169,7 +169,7 @@
             <div id="resposta-certa5">
                 <h1>Certa Resposta</h1>
                 <p><i class="fa-solid fa-thumbs-up"></i></p>
-                <button id="bt-continuar5" onclick="fechar01secao05();abrirsecao06()">continuar <i class="fa-solid fa-angle-right"></i></button>
+                <button id="bt-continuar5" onclick="fechar01secao05();abrirsecao06();tocarAudio6()">continuar <i class="fa-solid fa-angle-right"></i></button>
             </div>
         </section>
 
@@ -178,7 +178,7 @@
                 <h2 class="all-escolha">Escolha a tradução</h2>
                 <img id="work" src="/img/here.jpg" alt="">
                 <h3>here</h3>
-                <audio controls controlsList="nodownload">
+                <audio controls controlsList="nodownload" id="audio-here">
                     <source src="/audios/here-Ava.mp3" type="audio/mp3">
                 </audio>
                 <br>

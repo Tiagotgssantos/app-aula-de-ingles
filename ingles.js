@@ -22,6 +22,10 @@ function abrirAula1(){
     let lista=document.getElementById("aula1");
     lista.style.display="block";
 }
+function tocarAudio() {
+  var audioLike = document.getElementById("audio-like");
+  audioLike.play();
+}
 
 //aula01 seção2
 function abrir01secao02(){
@@ -54,6 +58,10 @@ function abrirsecao03(){
   let abrirContinuar02 = document.getElementById("aula1-secao3");
   abrirContinuar02.style.display="block";
 }
+function tocarAudio2() {
+  var audioWant = document.getElementById("audio-want");
+  audioWant.play();
+}
 
 //aula01 seção3
 function respostaCerta3(){
@@ -75,6 +83,10 @@ function fechar01secao03(){
 function abrirsecao04(){
   let abrirContinuar03 = document.getElementById("aula1-secao4");
   abrirContinuar03.style.display="block";
+}
+function tocarAudio3(){
+  var audioWork =document.getElementById("audio-work");
+  audioWork.play();
 }
 
 //aula01 seção4
@@ -98,6 +110,10 @@ function abrirsecao05(){
   let abrirContinuar04 = document.getElementById("aula1-secao5");
   abrirContinuar04.style.display="block";
 }
+function tocarAudio4(){
+  let audioTea = document.getElementById("audio-tea");
+  audioTea.play();
+}
 
 //aula01 seção5
 function respostaCerta5(){
@@ -120,6 +136,10 @@ function abrirsecao06(){
   let abrirContinuar05 = document.getElementById("aula1-secao6");
   abrirContinuar05.style.display="block";
 }
+function tocarAudio5(){
+  let audioCoffee =document.getElementById("audio-coffee");
+  audioCoffee.play();
+}
 
 //aula01 seção6
 function respostaCerta6(){
@@ -141,6 +161,10 @@ function fechar01secao06(){
 function abrirsecao07(){
   let abrirContinuar06 = document.getElementById("aula1-secao7");
   abrirContinuar06.style.display="block";
+}
+function tocarAudio6(){
+  let audioHere = document.getElementById("audio-here");
+  audioHere.play();
 }
 
 

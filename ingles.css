@@ -49,8 +49,12 @@ main {
     border-radius: 10px;
     overflow: hidden;
     top: 90px;
-    border-radius: 50%;  
+    border-radius: 30%;   
+   
 }
+
+
+
 
 .carousel-images {
     position: absolute;
@@ -58,8 +62,8 @@ main {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;  
+     
 }
 
 .carousel-images img {
@@ -67,7 +71,7 @@ main {
     height:220px;
     object-fit: cover;
     background-position: center;
-    cursor: pointer;
+    cursor: pointer; 
     
 }
 
