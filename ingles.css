@@ -118,11 +118,17 @@ main {
     color: #fff;
     top: 70%;
 }
+#informativo i{
+    position: relative;
+    font-size:30px ;
+    top: 1px;
+    color: rgba(0, 0, 0, 0.3);
+}
 
 #informativo h2 {
     color: #fff;
     border-radius: 10px;
-    padding: 2px 2px;
+    padding: 5px 2px;
     font-size: 18px;
     background: rgba(0, 0, 0, 0.4);
 
