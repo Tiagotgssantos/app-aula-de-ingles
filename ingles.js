@@ -1,12 +1,9 @@
 
 function fecharinformativo(){
-  let informativo = document.querySelector("informativo");
+  let informativo = document.getElementById("informativo");
   informativo.style.display="none";
 }
-function abririnformativo(){
-  let informativo = document.querySelector("informativo");
-  informativo.style.display="block";
-}
+
 
 function mensagemErrada1() {
     let respostaErrada = document.getElementById("resposta-errada1");
