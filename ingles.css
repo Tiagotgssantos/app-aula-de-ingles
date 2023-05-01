@@ -114,6 +114,8 @@ main {
 
 #informativo {
     position: absolute;
+    text-align: center;
+    color: #fff;
     top: 70%;
 }
 
