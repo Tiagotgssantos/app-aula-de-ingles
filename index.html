@@ -216,8 +216,57 @@
            <div>
             <p>Primeira etapa</p>
             <h2>concluída</h2>
-            <img class="primeira-etapa" src="./img/primeiraEtapa.gif" alt="">  
+            <img class="primeira-etapa" src="./img/primeiraEtapa.gif" alt=""> 
+             <button id="bt-continuar7" onclick="fechar01secao07();abrirsecao08()">continuar</button>
            </div>
+        </section>
+
+        <section id="aula1-secao8">
+            <h2>Digite a tradução:</h2>
+            <form>
+                <label for="entrada01" id="tradução01">gostar</label>
+                <input type="text" id="entrada01" name="entrada01" placeholder="digite aqui..." autocomplete="off">
+                <button id="confirma01" onclick="validarEntrada01()">Confirma</button>
+            </form>
+
+            <div id="resposta-errada7">
+                <h2>Errou!</h2>
+                <p>Resposta correta</p>
+                <h1>like</h1>
+                <button id="tentar7" onclick="tentarNovamente7()">tentar novamente</button>
+            </div>
+            <div id="resposta-certa7">
+                <h1>Certa Resposta</h1>
+                <p><i class="fa-solid fa-thumbs-up"></i></p>
+                <audio id="like-secao8">
+                    <source src="/audios/like.wav" type="audio/wav">
+                </audio>
+                <button id="bt-continuar8" onclick="fechar01secao08();abrirsecao09()">continuar <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </section>
+
+        <section id="aula1-secao9">
+            <h2>Digite a tradução:</h2>
+            <form>
+                <label for="entrada02" id="tradução02">want</label>
+                <input type="text" id="entrada02" name="entrada02" placeholder="digite aqui..." autocomplete="off">
+                <button id="confirma02" onclick="validarEntrada02()">Confirma</button>
+            </form>
+
+            <div id="resposta-errada8">
+                <h2>Errou!</h2>
+                <p>Resposta correta</p>
+                <h1>want</h1>
+                <button id="tentar8" onclick="tentarNovamente8()">tentar novamente</button>
+            </div>
+            <div id="resposta-certa8">
+                <h1>Certa Resposta</h1>
+                <p><i class="fa-solid fa-thumbs-up"></i></p>
+                <audio id="want-secao9">
+                    <source src="/audios/want-Ava.mp3" type="audio/wav">
+                </audio>
+                <button id="bt-continuar9" onclick="fechar01secao09();abrirsecao10()">continuar <i class="fa-solid fa-angle-right"></i></button>
+            </div>
         </section>
         
 

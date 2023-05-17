@@ -182,6 +182,41 @@ function tocarAudio6(){
   audioHere.play();
 }
 
+//aula01 seção7
+function fechar01secao07(){
+  let fecharcontinuar07 = document.getElementById("aula1-secao7");
+  fecharcontinuar07.style.display="none";
+}
+function abrirsecao08(){
+  let abrirContinuar07 = document.getElementById("aula1-secao8");
+  abrirContinuar07.style.display="block";
+}
+
+
+//aula01 seção8
+function validarEntrada01(){
+  const entrada01 =document.getElementById("entrada01").value;
+  let respostaCerta7 =document.getElementById("resposta-certa7");
+  let respostaErrada7=document.getElementById("resposta-errada7");
+  let likesecao8=document.getElementById("like-secao8");
+  if(entrada01.toLowerCase() === "like"){
+    respostaCerta7.style.display="block";
+    likesecao8.play();
+  }else{
+    respostaErrada7.style.display="block";
+  }
+  event.preventDefault();
+   // evitar que a página seja recarregada após enviar o formulário
+}
+
+function tentarNovamente7(){
+  let respostaErrada7=document.getElementById("resposta-errada7");
+  respostaErrada7.style.display="none";
+}
+function fechar01secao08(){
+  let fecharcontinuar08=document.getElementById("aula1-secao8");
+  fecharcontinuar08.style.display="none";
+}
 
 //slider
 const carouselImages = document.querySelector('.carousel-images');
